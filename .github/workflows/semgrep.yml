@@ -1,9 +1,9 @@
-name: Semgrep Full Scan test
-
+name: Semgrep Full Scan
 on:
-  push :
-   branches:
-      - main
+    push:
+      branches:
+        - main
+        - master
 jobs:
   semgrep-full:
       runs-on: ubuntu-latest
