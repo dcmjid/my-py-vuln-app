@@ -1,4 +1,4 @@
-name: Semgrep Full Scan
+name: Semgrep Full Scan test
 
 on:
   push :
